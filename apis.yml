@@ -1,7 +1,22 @@
 aid: veer
-name: veer
-description: veer is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veer.png
+name: VeeR VR
+description: VeeR VR is a virtual reality content community founded in June 2016 that
+  lets creators produce, edit, and share 360-degree videos and photos through its VeeR
+  VR and VeeR Editor mobile apps, and is a Qiming Venture Partners portfolio company.
+  As of July 2026 the company publishes no public API surface, and its primary domain
+  veer.tv redirects to veervr.com, which no longer resolves.
 url: https://raw.githubusercontent.com/api-evangelist/veer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Virtual Reality
+- 360 Video
+- Video Sharing
+- Content Community
+- Mobile Apps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +41,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/veer-domain-security.yml
+- type: LLMsTxt
+  url: llms/veer-llms.txt
 - type: Website
   url: https://veer.tv
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,18 @@
+# VeeR VR
+
+> VeeR VR (veer.tv) is a virtual reality content community founded in June 2016, offering a platform for creating, editing, and sharing 360-degree videos and photos through the VeeR VR and VeeR Editor mobile apps. A Qiming Venture Partners portfolio company. As of 2026-07-21 the company publishes no public API surface, and veer.tv redirects to veervr.com, which no longer resolves.
+
+Generated: 2026-07-21 | method: generated | source: apis.yml + live probes
+
+## Company
+
+- [Website](https://veer.tv): Primary domain; 301-redirects to veervr.com (dead DNS as of 2026-07-21)
+
+## APIs
+
+No public APIs, developer portal, or machine-readable specifications were found for this provider.
+
+## Artifacts
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/veer/refs/heads/main/apis.yml): Machine-readable index of this provider
+- [Domain security profile](https://raw.githubusercontent.com/api-evangelist/veer/refs/heads/main/security/veer-domain-security.yml): Probed TLS/DNS posture for veer.tv

@@ -29,6 +29,9 @@ description: VeeR VR is a virtual reality content community founded in June 2016
   As of July 2026 the company publishes no public API surface, and its primary domain
   veer.tv redirects to veervr.com, which no longer resolves.
 url: https://raw.githubusercontent.com/api-evangelist/veer/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of July 2026 the company publishes no public API surface, and its primary domain veer.tv redirects to veervr.com, which no longer resolves."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
